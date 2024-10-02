@@ -14,7 +14,6 @@
                 id="email"
                 v-model="email"
                 placeholder="Enter your email"
-                required
               />
             </div>
             <div class="form-group mb-4">
@@ -25,7 +24,6 @@
                 id="password"
                 v-model="password"
                 placeholder="Enter your password"
-                required
               />
             </div>
             <button type="submit" class="btn btn-primary w-100">Login</button>

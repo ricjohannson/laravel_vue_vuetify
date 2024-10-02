@@ -13,6 +13,7 @@
     },
     "dependencies": {
         "bootstrap": "^5.3.3",
-        "vue-router": "^4.0.13"
+        "vue-router": "^4.0.13",
+        "vue3-social-sharing": "^1.1.1"
     }
 }

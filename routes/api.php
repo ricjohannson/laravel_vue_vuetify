@@ -11,9 +11,9 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::get('/check-auth', function () {
-    return response()->json(['authenticated' => Auth::check()], Auth::check() ? 200 : 401);
-});
+// Route::get('/check-auth', function () {
+//     return response()->json(['authenticated' => Auth::check()], Auth::check() ? 200 : 401);
+// });
 
 //Register Page
 Route::post('/register', [RegisterController::class, 'register']);
